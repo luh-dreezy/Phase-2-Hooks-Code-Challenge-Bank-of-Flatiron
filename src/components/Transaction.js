@@ -19,7 +19,9 @@ function Transaction({ transaction, onDeleteTransaction }) {
       <td>{transaction.amount}</td>
       <td>
         <button onClick={handleDelete}>Delete</button>
+
       </td>
+      
     </tr>
   );
 }
